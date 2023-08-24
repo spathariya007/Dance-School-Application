@@ -1,0 +1,65 @@
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.m-div{
+    position: relative;
+    z-index: 5;
+      top: -65px;
+    
+
+}
+.div{
+    width: 200px;
+    position: absolute;
+    left: 5%;
+    z-index: 2;
+    top: 60px;
+}
+.register{
+    font-size: 2rem;
+    color: gray;
+}
+
+.frm {
+    display: flex;
+    flex-direction: column;
+  }
+.lbl {
+    font-weight: bold;
+    color: gray;
+  }
+  
+ .in[type="text"],
+  .in[type="email"],
+  .in[type="password"],
+  .in[type="date"] {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .in[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .btn[type="submit"] {
+    padding: 10px 10px;
+    background-color: #7b7e7b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 75px;
+    border-radius: 7px;
+  }
+  
+  .btn[type="submit"]:hover {
+    background-color: #2d383a;
+  }
+  
+
+
+
+
+  

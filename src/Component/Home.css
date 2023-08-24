@@ -1,0 +1,197 @@
+body{
+    scroll-behavior: smooth;
+}
+.vid1{
+    background: url('./Video/mixkit-man-breakdancing-452-medium.mp4');
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+}
+.P{
+    font-size: 6rem;
+     position: absolute;
+    z-index: 2;
+     font-family: "Open Sans", sans-serif !important;
+    color: #f4b756;
+     font-weight: bolder;
+     transform: translateZ(-50%);
+     animation: floatIn 1s ease-out 1.5s backwards;
+     scroll-behavior: smooth;
+     left: 470px;
+
+}
+@keyframes floatIn {
+    0% {
+      right: -800px;  
+    }
+    100% {
+      right: 0;  
+    }
+  }
+
+  /* ================================================================================== */
+
+  .m-div2{
+    position: relative;
+    top: 520px;
+    filter: blur(8px);
+  }
+  .mdiv3{
+    position: relative;
+    z-index: 2;
+    top: -50px;
+  }
+   .s-div2{
+    top:-750px;
+     margin-left: 650px;
+    position: relative;
+    z-index: 2;
+    opacity:.9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+   }
+   .s-div3{
+    top: -750px;
+    position: relative;
+    z-index: 2;
+    margin-left: 650px;
+    font-weight: bolder;
+    font-size: 4em;
+   }
+   .s-div4{
+    position: relative;
+    z-index: 2;
+     opacity: 70%;
+    font-size: 3rem;
+    top: -740px;
+    margin-left: 550px;
+   }
+   .image2{
+    /* width: 100px; */
+    height: 800px;
+    position: relative;
+    top: -20px;
+    animation: slide-in 1500ms;
+    animation-timing-function: linear ; 
+   }
+   @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+.div-k{
+  animation: slide-in-right 1500ms;
+  animation-timing-function: linear ;
+}
+@keyframes slide-in-right{
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+/* =================================================== */
+.image3{
+  height: 600px;
+  top: -250px;
+  margin-left: 650px;
+  position: relative;
+  animation: slide-in-right 1500ms;
+  animation-timing-function: linear ;
+}
+.s3-h1{
+  position: relative;
+  top: -680px;
+  margin-left: 110px;
+  font-size: 4rem
+}
+.s3-div2{
+  position: relative;
+  top: -650px;
+  width: 630px;
+  left: 10%;
+  font-size: 2rem;
+  font: italic small-caps bold 16px/2 cursive;
+}
+.s3-div{
+  animation: slide-in 1500ms;
+  animation-timing-function: linear ;
+}
+/* ========================================================================== */
+
+.image4{
+  height: 600px;
+  top: -440px;
+  margin-left: 120px;
+  position: relative;
+}
+.s4-h2{
+  position: relative;
+  top: -950px;
+  margin-left: 610px;
+  font-size: 4rem;
+  opacity: 60%;
+  animation: slide-in-right 1500ms;
+  animation-timing-function: linear ;
+}
+.s4-h4{
+  position: relative;
+  top: -960px;
+  margin-left: 640px;
+  font-size: 2rem;
+opacity: 70%;  
+animation: slide-in-right 1500ms;
+animation-timing-function: linear ;
+}
+.s4-p{
+  position: relative;
+  top: -880px;
+  width: 630px;
+  left: 45%;
+  font-size: 2rem;
+  font: italic small-caps bold 16px/2 cursive;
+  animation: slide-in-right 1500ms;
+  animation-timing-function: linear ;
+}
+/* ===================================================================== */
+
+.s5-div{
+  background:#f5dcdc;
+  position: relative;
+  top: -600px;
+}
+.d1-s5-img1{
+  width: 30%;
+}
+.d1-s5-img2{
+  width: 17%;
+}
+.d1-s5-img3{
+  width: 30%;
+}
+.d1-s5-img4{
+  width: 20%;
+}
+/* ======================= */
+
+.s5-div2{
+  background:#f5dcdc;
+  position: relative;
+  top: -600px;
+}
+.d2-s5-img1{
+  width: 17%;
+}
+.d2-s5-img2{
+  width: 33%;
+}
+.d2-s5-img3{
+  width: 21%;
+}
+.d2-s5-img4{
+  width: 28%;
+}

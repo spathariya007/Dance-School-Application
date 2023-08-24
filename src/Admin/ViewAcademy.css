@@ -1,0 +1,75 @@
+/* table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border:2px solid black;
+    padding: 15px;
+    text-align: center;
+} */
+
+
+.view-academy-div {
+    padding: 20px;
+  }
+  
+  .view-academy-div h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .VA-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .VA-table th,
+  .VA-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .VA-table th {
+    font-weight: bold;
+  }
+  
+  .VA-table .table-row:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  .VA-table .table-row:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .VA-table button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .VA-table button:hover {
+    background-color: #0056b3;
+  }
+  
+  .VA-table .bton button {
+    margin-right: 4px;
+  }
+  
+  .VA-table .bton button:last-child {
+    margin-right: 0;
+  }
+  
+  .VA-table .bton button[type='submit'] {
+    outline: none;
+  }
+  
+  .VA-table .bton button[type='submit']:focus {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+  }
+  

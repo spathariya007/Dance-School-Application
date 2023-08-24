@@ -1,0 +1,105 @@
+/* 
+.managersdiv{
+    height: 400px;
+    color: #09093f;
+    width: 400px;
+}
+.managermain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.managers{
+    position: relative;
+    top: 10px;
+}
+.btu{
+    color: #191970;
+    font-weight: bold;
+    border: none;
+    background-color: #DEB887;
+    box-shadow: 1px 1px 1px #422d0e;
+    border-radius: 5px;
+    height: 33px;
+    width: 90px;
+}
+.bta{
+    color: #191970;
+    font-weight: bold;
+    border: none;
+    background-color: #DEB887;
+    box-shadow: 1px 1px 1px #422d0e;
+    border-radius: 5px;
+    height: 33px;
+    width: 120px;
+}
+.btd{
+    color: #191970;
+    font-weight: bold;
+    border: none;
+    background-color: #DEB887;
+    box-shadow: 1px 1px 1px #422d0e;
+    border-radius: 5px;
+    height: 33px;
+    width: 90px;
+} */
+
+
+
+.academydetail {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .managermain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .managersdiv {
+    display: flex;
+    align-items: center;
+  }
+  
+  .managers {
+    display: flex;
+    align-items: center;
+  }
+  
+  .managers img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .managers h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .managers p {
+    margin: 5px 0;
+  }
+  
+  .btu,
+  .bta,
+  .btd {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+    margin-right: 4px;
+  }
+  
+  .btu:hover,
+  .bta:hover,
+  .btd:hover {
+    background-color: #0056b3;
+  }
+  

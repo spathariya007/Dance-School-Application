@@ -1,0 +1,21 @@
+.header{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    width: auto;
+    /* position: fixed; */
+    cursor: pointer;
+
+    
+}
+.h-div{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 50%;
+     color: #fff;
+     font-family: "Open Sans", sans-serif !important;
+     cursor:  pointer;
+     
+
+}

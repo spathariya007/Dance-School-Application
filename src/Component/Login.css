@@ -1,0 +1,47 @@
+
+   .form_main {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    top: -500px;
+    left: 400px;
+    z-index: 2;
+    position: relative;
+  }
+  .form_main label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .form_main input[type="text"],
+  .form_main input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  .form_main button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .form_main button:hover {
+    background-color: #45a049;
+  }
+  .form_main button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .div-login{
+    position: relative;
+    z-index: 5;
+  }
